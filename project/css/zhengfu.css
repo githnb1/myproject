@@ -1,0 +1,267 @@
+
+/*导航下的东西*/
+#content{
+    width: 1349px;
+    background: url("../images/solution_banner2.png")no-repeat ;
+    background-size: 1349px 150px;
+    font-size: 0px;
+    position: relative;
+}
+#content .content-img{
+    width: 1000px;
+    padding: 0 174px;
+    margin: 0 auto;
+    margin: 0px;
+
+}
+#content .content-img .bg{
+    width: 240px;
+    height: 430px;
+    background: url("../images/leftmenu_bg.png") no-repeat;
+}
+#content .content-img .bg .img-botton{
+    width: 240px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+#content .content-img .bg .img-botton>a{
+    display: block;
+    width: 198px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    color:#000;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #dedede;
+}
+#content .content-img .bg .img-botton .addhyyy{
+    display: block;
+    background: url("../images/menu_bg.png") no-repeat;
+    font-weight: bolder;
+    color:white;
+}
+#content .content-img .bg .img-botton .nav li{
+    width: 200px;
+    height: 35px;
+    line-height: 39px;
+    border-bottom: 1px solid #dedede;
+    background: url("../images/menu_bg.png") no-repeat 0px -46px;
+    font-size:14px;
+}
+#content .content-img .bg .img-botton .bg1{
+    background: url("../images/menu_bg.png") no-repeat 0px -203px;
+}
+#content .content-img .bg .img-botton .nav .lastline{
+    width: 203px;
+    height: 39px;
+    background: url("../images/menu_bg.png") no-repeat 0px -120px;
+}
+#content .content-img .bg .img-botton .nav li>a{
+    position: relative;
+    display: block;
+    color:#000;
+    font-weight: normal;
+    padding-top: -5px;
+    padding-left: 40px;
+}
+#content .content-img .bg .img-botton .nav li>a>img{
+    position: absolute;
+    top:7px;
+    left:10px;
+}
+.subcurrent{
+    display: block;
+    width: 210px;
+    height: 39px;
+    background: url("../images/menu_bg.png") no-repeat 0px -83px;
+}
+#content .content-img .bg .img-botton .nav1 li>a{
+    display:block;
+    position: relative;
+    padding-left: 35px;
+
+}
+#content .content-img .bg .img-botton .nav1 li:first-child>a{
+    margin-left: 2px;
+}
+#content .content-img .bg .img-botton .nav1 li>a>img{
+    position: absolute;
+    top:5px;
+    left:0px;
+}
+#content .content-img .bg .img-botton .nav1>li{
+     font-size: 14px;
+     width: 203px;
+     height: 35px;
+    line-height: 35px;
+    /*text-align: center;*/
+    font-weight: normal;
+    background: url("../images/menu_bg.png") no-repeat 2px -45px;
+ }
+#content .content-img .bg .img-botton .nav1{
+    display: none;
+}
+#content .content-img .bg .img-botton>a:nth-of-type(3){
+    margin-top: 5px;
+}
+#content .content-img .bg .img-botton .nav1>li>a{
+    /*display: block;*/
+    color:#000;
+}
+#content .content-img .bg .img-botton .nav1>li:last-child{
+    background: url("../images/menu_bg.png") no-repeat 0px -120px;
+    margin-left: 2px;
+}
+#content .content-img .lxwm{
+    position: relative;
+}
+#content .content-img .lxwm>img{
+    position: absolute;
+    left: 0px;
+    top:20px;
+}
+/*中间导航部分下的内容*/
+#content .list{
+    position: absolute;
+    top: 160px;
+    left: 420px;
+    font-size: 16px;
+}
+#content .list>ul>li{
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+}
+#content .list>ul>li>a{
+    color:#000;
+}
+#content .list>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+#content .list>p{
+    width: 710px;
+    height: 40px;
+    margin-top: 35px;
+    line-height: 40px;
+    background: #eeeeee;
+    font-weight: normal;
+    font-size:22px;
+    padding-left: 40px;
+}
+#content .list>p::before{
+    content: "";
+    width: 42px;
+    height: 30px;
+    background: url("../images/solution_icon_list_title.png")no-repeat;
+    position: absolute;
+    top:45px;
+    left:10px;
+}
+#content .list .xiangqing{
+    position: relative;
+    width: 720px;
+    height: 59px;
+    padding-right: 30px;
+    line-height: 59px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+#content .list .xiangqing>a{
+    font-size: 14px;
+    color: #00479d;
+}
+#content .list .xiangqing .xiangqing-img{
+    color:#d84a37;
+    font-size: 12px;
+    float: right;
+}
+#content .list .xiangqing>a:last-child::before{
+    width: 60px;
+    height:16px;
+    content: "";
+    background: url("../images/solution_icon_more.png")no-repeat;
+    position: absolute;
+    top:20px;
+    right:0px;
+}
+#content .list .xiangqing:hover{
+    border:1px dashed #dedede;
+}
+#content .list .xiangqing:hover a{
+    color:#d84a37;
+}
+/*有背景颜色*/
+#content .list .xiangqing1{
+    width: 720px;
+    height: 134px;
+    padding-right: 30px;
+    line-height: 59px;
+    margin-top: 10px;
+    border: 1px solid white;
+    position: relative;
+    background: #eeeeee;
+}
+#content .list .xiangqing1>a{
+    font-size: 14px;
+    color: #00479d;
+}
+#content .list .xiangqing1 .xiangqing-img{
+    color: #d84a37;
+    float: right;
+    font-size: 12px;
+}
+#content .list .xiangqing1 .xiangqing-img::before{
+    width:60px;
+    height:16px;
+    content: "";
+    background: url("../images/solution_icon_more.png")no-repeat;
+    position: absolute;
+    top:20px;
+    right:0px;
+}
+#content .list .xiangqing1:hover{
+    border:1px dashed #dedede;
+}
+#content .list .xiangqing1>p{
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 32px;
+}
+/*没有背景颜色*/
+#content .list .xiangqing2{
+    width: 720px;
+    height: 134px;
+    padding-right: 30px;
+    line-height: 59px;
+    margin-top: 10px;
+    border: 1px solid white;
+    position: relative;
+}
+#content .list .xiangqing2>a{
+    font-size: 14px;
+    color: #00479d;
+}
+#content .list .xiangqing2 .xiangqing-img{
+    color: #d84a37;
+    float: right;
+    font-size: 12px;
+}
+#content .list .xiangqing2 .xiangqing-img::before{
+    width:60px;
+    height:16px;
+    content: "";
+    background: url("../images/solution_icon_more.png")no-repeat;
+    position: absolute;
+    top:20px;
+    right:0px;
+}
+#content .list .xiangqing2:hover{
+    border:1px dashed #dedede;
+}
+#content .list .xiangqing2>p{
+    line-height: 20px;
+    font-size: 14px;
+    text-indent: 32px;
+}
